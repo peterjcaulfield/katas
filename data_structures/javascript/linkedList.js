@@ -3,9 +3,12 @@
  *
  */
 
-function linkedList() {
+function linkedList(array) {
+
   this.length = 0;
   this.first = this.last = null;
+
+  //TODO: loop input and insert
 }
 
 function node(data) {
